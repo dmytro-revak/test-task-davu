@@ -5,9 +5,10 @@
          url('../fonts/MyriadProRegular.woff') format('woff');
 }
 
+/*general styles*/
+
 body {
     font-family: "Myriad Pro", Arial, sans-serif;
-    color: rgb(68, 68, 68);
 }
 
 .grey-text {
@@ -25,21 +26,28 @@ body {
     padding: 72px 0 95px 0;
 }
 
-.cv_style_default {
+.cv {
     width: 800px;
     margin: 0 auto;
     padding: 50px;
     box-sizing: border-box;
+}
+
+.cv_style_default {
     box-shadow: 0 0 40px -10px rgba(0,0,0,0.75), inset 0 5px 40px -20px rgba(0,0,0,0.75);
     background-color: rgb(255, 255, 255);
 }
+
+/*personal-information section styles*/
 
 .personal-information {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
+
 .personal-information_style_default {
+    color: rgb(68, 68, 68);
     box-shadow: 0 5px 5px -6px rgba(0,0,0,0.75);
 }
 
@@ -92,8 +100,10 @@ body {
     width: 100%;
 }
 
+/*work-experience section styles*/
+
 .cv__work-experience {
-    margin-top: 42px;
+    margin: 42px 0 62px 0;
 }
 
 .work-experience_style_default {
@@ -104,13 +114,13 @@ body {
     margin-bottom: 30px;
 }
 
-.work-experience__company-experience {
-    margin-bottom: 28px;
-}
-
 .experience-heading_style_default {
     font-size: 27px;
     letter-spacing: -0.8px;
+}
+
+.work-experience__company-experience {
+    margin-bottom: 28px;
 }
 
 .company-experience__job-title_style_default {
