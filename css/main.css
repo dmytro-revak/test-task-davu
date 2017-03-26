@@ -34,7 +34,8 @@ body {
 }
 
 .cv_style_default {
-    box-shadow: 0 0 40px -10px rgba(0,0,0,0.75), inset 0 5px 40px -20px rgba(0,0,0,0.75);
+    box-shadow: 0 0 35px -10px rgba(0,0,0,0.75),
+                0 5px 45px -20px rgba(0,0,0,0.75) inset;
     background-color: rgb(255, 255, 255);
 }
 
