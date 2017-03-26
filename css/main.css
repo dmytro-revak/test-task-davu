@@ -1,0 +1,13 @@
+.cv-wrapper {
+    width: 800px;
+    margin: 70px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 0 40px -10px rgba(0,0,0,0.75);
+}
+
+.personal-information {
+    display: flex;
+    justify-content: space-between;
+}
+
